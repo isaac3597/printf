@@ -1,1 +1,1 @@
-This is the Printf.c group project
+This is the Printf.c group project.
