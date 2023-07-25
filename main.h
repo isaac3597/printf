@@ -1,4 +1,5 @@
- #ifndef MAIN_H
+
+#ifndef MAIN_H
 #define MAIN_H
 #include <stdarg.h>
 #include <stdio.h>
@@ -7,7 +8,7 @@
 #define UNUSED(x) (void)(x)
 #define BUFF_SIZE 1024
 
-/* FLAGS */
+/* THE FLAGS */
 #define F_MINUS 1
 #define F_PLUS 2
 #define F_ZERO 4
@@ -19,10 +20,10 @@
 #define S_SHORT 1
 
 /**
- * struct fmt - Struct op
+ * struct fmt - This is thestruct op
  *
- * @fmt: The format.
- * @fn: The function associated.
+ * @fmt: The required format.
+ * @fn: The function to be associated.
  */
 struct fmt
 {
@@ -35,7 +36,7 @@ struct fmt
  * typedef struct fmt fmt_t - Struct op
  *
  * @fmt: The format.
- * @fm_t: The function associated.
+ * @fm_t: The function to be associated.
  */
 typedef struct fmt fmt_t;
 
@@ -43,9 +44,9 @@ int _printf(const char *format, ...);
 int handle_print(const char *fmt, int *i,
 va_list list, char buffer[], int flags, int width, int precision, int size);
 
-/****************** FUNCTIONS ******************/
+/* THE FUNCTIONS */
 
-/* Funtions to print chars and strings */
+/* The funtions to be printed chars and strings */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int print_string(va_list types, char buffer[],
