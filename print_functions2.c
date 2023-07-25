@@ -2,10 +2,10 @@
 
 /** PRINT POINTER **/
 /**
- * print_pointer - It will prints the value of a pointer variable
+ * print_pointer - This will output the value of a pointer variable
  * @types: It will List a of arguments
  * @buffer: The buffer array to handle print
- * @flags:  It calculates active flags
+ * @flags:  This calculates the active flags
  * @width: It will get a width
  * @precision: The precision specification
  * @size: The size specifier
@@ -54,10 +54,10 @@ int print_pointer(va_list types, char buffer[],
 
 /*** PRINT NON PRINTABLE **/
 /**
- * print_non_printable - It prints ascii codes in hexa of non printable chars
+ * print_non_printable - It outputs ascii codes in hexa of non printable chars
  * @types: The List a of arguments
  * @buffer: The buffer array to handle print
- * @flags:  It calculates active flags
+ * @flags:  This calculate the active flags
  * @width: To get the width
  * @precision: The precision specification
  * @size: The size specifier
@@ -94,11 +94,11 @@ int print_non_printable(va_list types, char buffer[],
 
 /* PRINT REVERSE **/
 /**
- * print_reverse - It will print reverse string.
- * @types: The Lista of arguments
+ * print_reverse - This will display a reverse string.
+ * @types: The list of arguments
  * @buffer: The Buffer array to handle print
- * @flags:  It Calculates active flags
- * @width: It get the width
+ * @flags:  This calculates the active flags
+ * @width: This will get the width
  * @precision: The precision specification
  * @size: The size specifier
  * Return: The numbers of chars printed
@@ -137,10 +137,10 @@ int print_reverse(va_list types, char buffer[],
 }
 /* PRINT A STRING IN ROT13 */
 /**
- * print_rot13string - It will print a string in rot13.
- * @types: The Lista of arguments
+ * print_rot13string - This will output  a string in rot13.
+ * @types: The list of arguments
  * @buffer: The Buffer array to handle print
- * @flags:  It Calculates active flags
+ * @flags:  This calculates active flags
  * @width: It get width
  * @precision: The Precision specification
  * @size: The Size specifier
