@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * get_width - It calculates the width for printing
- * @format: The formatted string in which to print the arguments.
- * @i: The list of arguments to be printed.
+ * get_width - This function calculates the width for outputting
+ * @format: The formatted string in which to output the arguments.
+ * @i: This is the list of arguments to be printed.
  * @list: The list of arguments.
  *
  * Return: the width.
